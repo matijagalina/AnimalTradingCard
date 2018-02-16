@@ -1,0 +1,67 @@
+.animal-card {
+  background: linear-gradient(
+    177deg,
+    #735843 0%,
+    #866d57 16%,
+    #9a826b 33%,
+    #ad9881 50%,
+    #c1af96 66%,
+    #d5c6ad 83%,
+    #eadec4 100%
+  );
+  font-family: "Helvetica", Arial, sans-serif;
+  margin: auto;
+  width: 340px;
+  text-align: center;
+  color: #223a43;
+  padding: 10px 0;
+}
+
+.border {
+  border: 1px solid transparent;
+  border-radius: 7px;
+  box-shadow: 0 0 15px gray;
+}
+
+.background {
+  background-color: #e1d3c1;
+}
+
+.animal-name {
+  display: inline-block;
+  text-transform: uppercase;
+  font-family: "Book Antiqua";
+  font-weight: bold;
+  font-size: 1.5em;
+  width: 300px;
+  padding: 5px 0;
+  margin: 15px auto;
+}
+
+.animal-image {
+  display: inline-block;
+  width: 300px;
+  opacity: 0.8;
+}
+
+.article {
+  display: inline-block;
+  width: 300px;
+  padding: 5px 0;
+  margin: 15px 0;
+}
+
+.article-fact {
+  font-style: italic;
+}
+
+.article-list {
+  text-align: left;
+  list-style-type: none;
+  padding: 0;
+  margin-left: 75px;
+}
+
+.label {
+  font-weight: bold;
+}
